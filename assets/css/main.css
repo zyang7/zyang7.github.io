@@ -3520,6 +3520,36 @@
 				opacity: 0.75;
 			}
 
+		/* Banner Logo - added */
+		#banner .logo {
+			border-bottom: 0;
+			display: inline-block;
+			margin: 0 0 1em 0;
+			overflow: hidden;
+			position: relative;
+			width: 9em;
+		}
+
+			#banner .logo:before {
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200px' height='200px' viewBox='0 0 100 100' preserveAspectRatio='none' zoomAndPan='disable'%3E%3Cpolygon points='0,0 100,0 100,25 50,0 0,25' style='fill:#414455' /%3E%3Cpolygon points='0,100 100,100 100,75 50,100 0,75' style='fill:#414455' /%3E%3C/svg%3E");
+				background-position: top left;
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				content: '';
+				display: block;
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+
+			#banner .logo img {
+				display: block;
+				margin-left: -0.25em;
+				width: 9em;
+			}
+
 		#banner.style1:after {
 			background-color: #6fc3df;
 		}
@@ -3650,6 +3680,35 @@
 			background-color: transparent;
 			border-bottom: solid 1px rgba(212, 212, 255, 0.1);
 		}
+		/* Main Logo - added */
+		#main .logo {
+			border-bottom: 0;
+			display: inline-block;
+			margin: 0 0 1em 0;
+			overflow: hidden;
+			position: relative;
+			width: 9em;
+		}
+
+			#main .logo:before {
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200px' height='200px' viewBox='0 0 100 100' preserveAspectRatio='none' zoomAndPan='disable'%3E%3Cpolygon points='0,0 100,0 100,25 50,0 0,25' style='fill:#2A3049' /%3E%3Cpolygon points='0,100 100,100 100,75 50,100 0,75' style='fill:#2A3049' /%3E%3C/svg%3E");
+				background-position: top left;
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				content: '';
+				display: block;
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+			}
+
+			#main .logo img {
+				display: block;
+				margin-left: -0.25em;
+				width: 9em;
+			}
 
 /* Contact */
 
